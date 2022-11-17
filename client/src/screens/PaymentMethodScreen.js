@@ -40,6 +40,7 @@ export default function PaymentMethodScreen() {
             <Form.Check
               type="radio"
               id="PayPal"
+              style={{ color: "#f5f5f5" }}
               label="PayPal"
               value="PayPal"
               checked={paymentMethodName === "PayPal"}
@@ -51,6 +52,7 @@ export default function PaymentMethodScreen() {
               type="radio"
               id="Stripe"
               label="Stripe"
+              style={{ color: "#f5f5f5" }}
               value="Stripe"
               checked={paymentMethodName === "Stripe"}
               onChange={(e) => setPaymentMethod(e.target.value)}

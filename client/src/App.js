@@ -36,7 +36,7 @@ function App() {
     <BrowserRouter>
       <div className="d-flex flex-column site-container">
         <header>
-          <Navbar bg="secondary" variant="dark" expand="lg">
+          <Navbar className="color-nav" variant="dark" expand="lg">
             <Container>
               <LinkContainer to="/">
                 <Navbar.Brand> ECommerce Website </Navbar.Brand>
